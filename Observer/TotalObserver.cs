@@ -6,7 +6,8 @@
 
         public void Update(Item item)
         {
-            total += item.Amount;
+            // Actualiza el total con la cantidad del nuevo elemento.
+            total += item.Amount; 
             Console.WriteLine($"Total: {total}");
         }
     }

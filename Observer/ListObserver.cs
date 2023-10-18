@@ -2,9 +2,10 @@
 {
     public class ListObserver : IObserver
     {
+        // Imprime información sobre el nuevo elemento en la lista.
         public void Update(Item item)
         {
-            Console.WriteLine($"Item added: {item.Description}, Amount: {item.Amount}");
+            Console.WriteLine($"Elemento agregado: {item.Description}, Cantidad: {item.Amount}");
         }
     }
 }
